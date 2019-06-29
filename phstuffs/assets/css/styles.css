@@ -1,0 +1,63 @@
+a.linkcolor {
+    color: #1d1d1d;
+}
+
+.siteheader a:hover {
+    color: #dc3545 !important;
+}
+.siteheader a {
+    color: #000000;
+    font-size: 24px;
+}
+i.fa.fa-shopping-cart {
+    font-size: 35px;
+    font-family: fontawesome;
+    color: #e3292c;
+    margin-left: 8px;
+}
+
+i.fa.fa-user {
+    font-size: 35px;
+    font-family: fontawesome;
+    color: #e3292c;
+    margin-left: 8px;
+}
+.bgcover {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("/assets/images/bgcover.jpg");
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+.collecItems1 {
+    background-image: url("/assets/images/holiday.jpg");
+    background-position: center;
+}
+.collecItems2 {
+    background-image: url("/assets/images/art.jpg");
+    background-position: center;
+}
+.collecItems3 {
+    background-image: url("/assets/images/bestseller.jpg");
+    background-position: center;
+}
+.collecItems4 {
+    background-image: url("/assets/images/discounts.jpg");
+    background-position: center;
+}
+
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+    .flex-md-equal > * {
+        -ms-flex: 1;
+        flex: 1;
+    }
+  }
+
